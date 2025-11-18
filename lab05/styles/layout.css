@@ -1,0 +1,38 @@
+aside {
+    border: 4px inset purple;
+    width: 30%;
+    border-radius: 14px;
+    margin: lem;
+    padding: lem;
+    background:url(images/fade.jpg) repeat-x top left;
+    float: right;
+    box-shadow:10px 10px 5px #aaaaaa;
+}
+header {
+    border: 1px solid #000000;
+    margin: 0.5em;
+    padding:20px;
+    background-color: lightgrey;
+    text-align: center;
+}
+footer{border-top:4px solid black;border-top:double;}
+#lists{float:left;}
+table{margin:auto;}
+#tables{float:right; margin:auto;}
+#hyperlinks{clear:right;}
+#hyperlinks{clear:both;}
+#hyperlinks {clear:left;float:left;}
+
+
+
+footer{clear:both;}
+#images{float:right;}
+figure {border:2px solid #ccc;}
+footer {border-top: 4px doublw darkgray;clear:both;}
+#lists, #images, #tables, #hyperlinks{width:50%;text-align:center;}
+ol,ul,dl{text-align: left;}
+article{min-width:30em;}
+footer p{display:inline-block; width:33%;}
+footer p:first-child{float:left;}
+footer p:nth-child(2){text-align: center;}
+footer p:last-child{float:right;text-align: right;}
